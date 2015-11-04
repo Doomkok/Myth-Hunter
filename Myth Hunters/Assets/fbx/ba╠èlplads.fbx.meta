@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 587d055bf030d9f49a9fb43d3be59d51
+timeCreated: 1446639185
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder
+    100004: Cylinder_1
+    100006: Cylinder_2
+    100008: Cylinder_3
+    100010: Cylinder_4
+    100012: Cylinder_5
+    100014: Cylinder_6
+    100016: Group_007
+    100018: Group_007_1
+    100020: Group_007_10
+    100022: Group_007_11
+    100024: Group_007_12
+    100026: Group_007_13
+    100028: Group_007_14
+    100030: Group_007_15
+    100032: Group_007_16
+    100034: Group_007_17
+    100036: Group_007_18
+    100038: Group_007_19
+    100040: Group_007_2
+    100042: Group_007_3
+    100044: Group_007_4
+    100046: Group_007_5
+    100048: Group_007_6
+    100050: Group_007_7
+    100052: Group_007_8
+    100054: Group_007_9
+    100056: Oil_Tank
+    400000: //RootNode
+    400002: Cylinder
+    400004: Cylinder_1
+    400006: Cylinder_2
+    400008: Cylinder_3
+    400010: Cylinder_4
+    400012: Cylinder_5
+    400014: Cylinder_6
+    400016: Group_007
+    400018: Group_007_1
+    400020: Group_007_10
+    400022: Group_007_11
+    400024: Group_007_12
+    400026: Group_007_13
+    400028: Group_007_14
+    400030: Group_007_15
+    400032: Group_007_16
+    400034: Group_007_17
+    400036: Group_007_18
+    400038: Group_007_19
+    400040: Group_007_2
+    400042: Group_007_3
+    400044: Group_007_4
+    400046: Group_007_5
+    400048: Group_007_6
+    400050: Group_007_7
+    400052: Group_007_8
+    400054: Group_007_9
+    400056: Oil_Tank
+    2300000: Cylinder
+    2300002: Cylinder_1
+    2300004: Cylinder_2
+    2300006: Cylinder_3
+    2300008: Cylinder_4
+    2300010: Cylinder_5
+    2300012: Cylinder_6
+    2300014: Group_007
+    2300016: Group_007_1
+    2300018: Group_007_10
+    2300020: Group_007_11
+    2300022: Group_007_12
+    2300024: Group_007_13
+    2300026: Group_007_14
+    2300028: Group_007_15
+    2300030: Group_007_16
+    2300032: Group_007_17
+    2300034: Group_007_18
+    2300036: Group_007_19
+    2300038: Group_007_2
+    2300040: Group_007_3
+    2300042: Group_007_4
+    2300044: Group_007_5
+    2300046: Group_007_6
+    2300048: Group_007_7
+    2300050: Group_007_8
+    2300052: Group_007_9
+    2300054: Oil_Tank
+    3300000: Cylinder
+    3300002: Cylinder_1
+    3300004: Cylinder_2
+    3300006: Cylinder_3
+    3300008: Cylinder_4
+    3300010: Cylinder_5
+    3300012: Cylinder_6
+    3300014: Group_007
+    3300016: Group_007_1
+    3300018: Group_007_10
+    3300020: Group_007_11
+    3300022: Group_007_12
+    3300024: Group_007_13
+    3300026: Group_007_14
+    3300028: Group_007_15
+    3300030: Group_007_16
+    3300032: Group_007_17
+    3300034: Group_007_18
+    3300036: Group_007_19
+    3300038: Group_007_2
+    3300040: Group_007_3
+    3300042: Group_007_4
+    3300044: Group_007_5
+    3300046: Group_007_6
+    3300048: Group_007_7
+    3300050: Group_007_8
+    3300052: Group_007_9
+    3300054: Oil_Tank
+    4300000: Cylinder_6
+    4300002: Cylinder_5
+    4300004: Cylinder_4
+    4300006: Cylinder_3
+    4300008: Cylinder_2
+    4300010: Cylinder_1
+    4300012: Cylinder
+    4300014: Group_007_19
+    4300016: Group_007_18
+    4300018: Group_007_17
+    4300020: Group_007_16
+    4300022: Group_007_15
+    4300024: Group_007_14
+    4300026: Group_007_13
+    4300028: Group_007_12
+    4300030: Group_007_11
+    4300032: Group_007_10
+    4300034: Group_007_9
+    4300036: Group_007_8
+    4300038: Group_007_7
+    4300040: Group_007_6
+    4300042: Group_007_5
+    4300044: Group_007_4
+    4300046: Group_007_3
+    4300048: Group_007_2
+    4300050: Group_007_1
+    4300052: Group_007
+    4300054: Oil_Tank
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

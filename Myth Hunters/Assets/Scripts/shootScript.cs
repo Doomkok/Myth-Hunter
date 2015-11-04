@@ -6,15 +6,22 @@ public class shootScript : MonoBehaviour {
 	public GameObject firstPersonCamera;
 	public GameObject crosshair;
 	[SerializeField]
-	private Camera _camera;
-
+	private Camera _RayCastcamera;
+	public float fireRate = 2f;
+	public int damage = 25;
+	float cooldown = 0;
+	
 	// Use this for initialization
 	void Start () {
-	
+		//Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		
+		cooldown -= Time.deltaTime;
+		
 		if (Input.GetButton ("Fire2")) {
 			mainCamera.SetActive (false);
 			firstPersonCamera.SetActive (true);
@@ -22,12 +29,22 @@ public class shootScript : MonoBehaviour {
 			GetComponent<move>().enabled = true;
 			GetComponent<mouseLookX>().enabled = true;
 			crosshair.SetActive (true);
+			
 			if (Input.GetButton ("Fire1")) {
-				Vector3 point = new Vector3 (_camera.pixelWidth/2, _camera.pixelHeight/2,0);
-				Ray ray = _camera.ScreenPointToRay(point);
-				RaycastHit hit;
-				if (Physics.Raycast(ray, out hit)) {
-					Debug.Log("Hit " + hit.point);
+				if (cooldown < 0) {
+					cooldown = fireRate;
+					Vector3 point = new Vector3 (_RayCastcamera.pixelWidth/2, _RayCastcamera.pixelHeight/2,0);
+					Ray ray = _RayCastcamera.ScreenPointToRay(point);
+					RaycastHit hit;
+					if (Physics.Raycast(ray, out hit)) {
+						GameObject hitObject = hit.transform.gameObject;
+						reactiveTarget target = hitObject.GetComponent<reactiveTarget>();
+						if (target != null) {
+							target.ReactToHit(damage);
+						} else {
+							StartCoroutine(HitIndicator(hit.point));
+						}
+					}
 				}
 			}
 		} else {
@@ -39,6 +56,16 @@ public class shootScript : MonoBehaviour {
 			crosshair.SetActive (false);
 		}
 	}
-
-
+	
+	private IEnumerator HitIndicator(Vector3 pos) {
+		GameObject sphere = GameObject.CreatePrimitive (PrimitiveType.Sphere);
+		sphere.transform.position = pos;
+		
+		yield return new WaitForSeconds (1);
+		
+		Destroy (sphere);
+		
+	}
+	
+	
 }
