@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: f09d5abdc831afd43bfcb4c152119f20
+timeCreated: 1446813561
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: hbben
+    100002: hbben_2
+    100004: hear
+    100006: hfben
+    100008: hfben_2
+    100010: hovede
+    100012: //RootNode
+    100014: Joint_1
+    100016: Joint_3
+    100018: Joint_3_2
+    100020: Joint_4
+    100022: Joint_4_2
+    100024: Joint_4_3
+    100026: Joint_4_4
+    100028: Joint_4_5
+    100030: Joint_5
+    100032: Joint_5_2
+    100034: Joint_5_3
+    100036: Joint_5_4
+    100038: Joint_5_5
+    100040: Joint_5_6
+    100042: Joint_6
+    100044: Joint_6_2
+    100046: Joint_6_3
+    100048: Joint_6_4
+    100050: ryg
+    100052: vbben
+    100054: vbben_2
+    100056: vear
+    100058: vfben
+    100060: vfben_2
+    400000: hbben
+    400002: hbben_2
+    400004: hear
+    400006: hfben
+    400008: hfben_2
+    400010: hovede
+    400012: //RootNode
+    400014: Joint_1
+    400016: Joint_3
+    400018: Joint_3_2
+    400020: Joint_4
+    400022: Joint_4_2
+    400024: Joint_4_3
+    400026: Joint_4_4
+    400028: Joint_4_5
+    400030: Joint_5
+    400032: Joint_5_2
+    400034: Joint_5_3
+    400036: Joint_5_4
+    400038: Joint_5_5
+    400040: Joint_5_6
+    400042: Joint_6
+    400044: Joint_6_2
+    400046: Joint_6_3
+    400048: Joint_6_4
+    400050: ryg
+    400052: vbben
+    400054: vbben_2
+    400056: vear
+    400058: vfben
+    400060: vfben_2
+    4300000: Jackalope
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hbben
+        weight: 1
+      - path: hfben
+        weight: 1
+      - path: Joint_1
+        weight: 1
+      - path: Joint_1/hbben_2
+        weight: 1
+      - path: Joint_1/hbben_2/Joint_3_2
+        weight: 1
+      - path: Joint_1/hbben_2/Joint_3_2/Joint_4_2
+        weight: 1
+      - path: Joint_1/hbben_2/Joint_3_2/Joint_4_2/Joint_5_2
+        weight: 1
+      - path: Joint_1/ryg
+        weight: 1
+      - path: Joint_1/ryg/hfben_2
+        weight: 1
+      - path: Joint_1/ryg/hfben_2/Joint_4_4
+        weight: 1
+      - path: Joint_1/ryg/hfben_2/Joint_4_4/Joint_5_4
+        weight: 1
+      - path: Joint_1/ryg/hfben_2/Joint_4_4/Joint_5_4/Joint_6_2
+        weight: 1
+      - path: Joint_1/ryg/hovede
+        weight: 1
+      - path: Joint_1/ryg/hovede/Joint_4_5
+        weight: 1
+      - path: Joint_1/ryg/hovede/Joint_4_5/hear
+        weight: 1
+      - path: Joint_1/ryg/hovede/Joint_4_5/hear/Joint_6_3
+        weight: 1
+      - path: Joint_1/ryg/hovede/Joint_4_5/Joint_5_5
+        weight: 1
+      - path: Joint_1/ryg/hovede/Joint_4_5/Joint_5_6
+        weight: 1
+      - path: Joint_1/ryg/hovede/Joint_4_5/vear
+        weight: 1
+      - path: Joint_1/ryg/hovede/Joint_4_5/vear/Joint_6_4
+        weight: 1
+      - path: Joint_1/ryg/vfben_2
+        weight: 1
+      - path: Joint_1/ryg/vfben_2/Joint_4_3
+        weight: 1
+      - path: Joint_1/ryg/vfben_2/Joint_4_3/Joint_5_3
+        weight: 1
+      - path: Joint_1/ryg/vfben_2/Joint_4_3/Joint_5_3/Joint_6
+        weight: 1
+      - path: Joint_1/vbben_2
+        weight: 1
+      - path: Joint_1/vbben_2/Joint_3
+        weight: 1
+      - path: Joint_1/vbben_2/Joint_3/Joint_4
+        weight: 1
+      - path: Joint_1/vbben_2/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: vbben
+        weight: 1
+      - path: vfben
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

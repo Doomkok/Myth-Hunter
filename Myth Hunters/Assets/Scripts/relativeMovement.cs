@@ -7,6 +7,7 @@ public class relativeMovement : MonoBehaviour {
 	[SerializeField] private Transform target;
 	public float rotSpeed = 15f;
 	public float moveSpeed = 6.0f;
+	public float runSpeed = 10f;
 	private CharacterController _charController;
 	public float jumpSpeed = 15.0f;
 	public float gravity = -9.8f;
@@ -22,6 +23,8 @@ public class relativeMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
+
 		Vector3 movement = Vector3.zero;
 
 		float horInput = Input.GetAxis ("Horizontal");
@@ -40,6 +43,8 @@ public class relativeMovement : MonoBehaviour {
 			Quaternion direction = Quaternion.LookRotation(movement);
 			transform.rotation = Quaternion.Lerp(transform.rotation, direction, rotSpeed * Time.deltaTime);
 		}
+
+
 
 		bool hitGround = false;
 		RaycastHit hit;
