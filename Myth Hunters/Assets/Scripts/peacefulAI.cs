@@ -8,8 +8,6 @@ public class peacefulAI : MonoBehaviour {
 	public float currentSpeed = 5.0f;
 	public float runSpeed = 10.0f;
 	public float obstacleRange = 0.5f;
-	private float attackCooldown = 1.5f;
-	public float currentAttackCooldown = 1.5f;
 	public Transform playerTransform;
 	private GameObject playerCol;
 	private reactiveTarget rT;
@@ -18,6 +16,7 @@ public class peacefulAI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		anim = GetComponentInChildren<Animator> ();
+		playerTransform = GameObject.FindGameObjectWithTag ("Player").gameObject.transform;
 	}
 	
 	// Update is called once per frame
@@ -39,8 +38,7 @@ public class peacefulAI : MonoBehaviour {
 			currentSpeed = runSpeed;
 			Debug.Log(currentSpeed + " Speed der ");
 		}
-		
-		currentAttackCooldown -= Time.deltaTime;
+
 	}
 	
 	void FixedUpdate () {
