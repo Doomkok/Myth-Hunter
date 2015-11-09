@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 5cf6f9ec049ab3f4bafa8a7dbf5a7692
+timeCreated: 1447071047
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: blunderbluss
+    100002: //RootNode
+    100004: halbue
+    100006: hfingre
+    100008: hfod
+    100010: "hh\xE5nd"
+    100012: "hkn\xE6"
+    100014: "hl\xE5r"
+    100016: hovede
+    100018: hskulder
+    100020: htommel
+    100022: Joint_5
+    100024: Joint_5_2
+    100026: Joint_5_3
+    100028: Joint_8
+    100030: Joint_8_2
+    100032: Joint_8_3
+    100034: Joint_8_4
+    100036: mave
+    100038: ryg
+    100040: spin
+    100042: valbue
+    100044: vfingre
+    100046: vfod
+    100048: "vh\xE5nd"
+    100050: "vkn\xE6"
+    100052: "vl\xE5r"
+    100054: vskulder
+    100056: vtommel
+    400000: blunderbluss
+    400002: //RootNode
+    400004: halbue
+    400006: hfingre
+    400008: hfod
+    400010: "hh\xE5nd"
+    400012: "hkn\xE6"
+    400014: "hl\xE5r"
+    400016: hovede
+    400018: hskulder
+    400020: htommel
+    400022: Joint_5
+    400024: Joint_5_2
+    400026: Joint_5_3
+    400028: Joint_8
+    400030: Joint_8_2
+    400032: Joint_8_3
+    400034: Joint_8_4
+    400036: mave
+    400038: ryg
+    400040: spin
+    400042: valbue
+    400044: vfingre
+    400046: vfod
+    400048: "vh\xE5nd"
+    400050: "vkn\xE6"
+    400052: "vl\xE5r"
+    400054: vskulder
+    400056: vtommel
+    2300000: blunderbluss
+    3300000: blunderbluss
+    4300000: "DV\xC6RG"
+    4300002: blunderbluss
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: spin
+        weight: 1
+      - path: "spin/hl\xE5r"
+        weight: 1
+      - path: "spin/hl\xE5r/hkn\xE6"
+        weight: 1
+      - path: "spin/hl\xE5r/hkn\xE6/hfod"
+        weight: 1
+      - path: "spin/hl\xE5r/hkn\xE6/hfod/Joint_5_2"
+        weight: 1
+      - path: spin/mave
+        weight: 1
+      - path: spin/mave/ryg
+        weight: 1
+      - path: spin/mave/ryg/hovede
+        weight: 1
+      - path: spin/mave/ryg/hovede/Joint_5_3
+        weight: 1
+      - path: spin/mave/ryg/hskulder
+        weight: 1
+      - path: spin/mave/ryg/hskulder/halbue
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/blunderbluss"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/hfingre"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/hfingre/Joint_8_4"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/htommel"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/htommel/Joint_8_3"
+        weight: 1
+      - path: spin/mave/ryg/vskulder
+        weight: 1
+      - path: spin/mave/ryg/vskulder/valbue
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd"
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd/vfingre"
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd/vfingre/Joint_8_2"
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd/vtommel"
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd/vtommel/Joint_8"
+        weight: 1
+      - path: "spin/vl\xE5r"
+        weight: 1
+      - path: "spin/vl\xE5r/vkn\xE6"
+        weight: 1
+      - path: "spin/vl\xE5r/vkn\xE6/vfod"
+        weight: 1
+      - path: "spin/vl\xE5r/vkn\xE6/vfod/Joint_5"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

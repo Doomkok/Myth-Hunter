@@ -43,7 +43,7 @@ void Update ()
 void Start ()
 {
 	//Hide cursor
-	Cursor.visible = false;
+	//Cursor.visible = false;
 	// Make the rigid body not change rotation
 	if (GetComponent<Rigidbody>())
 		GetComponent<Rigidbody>().freezeRotation = true;

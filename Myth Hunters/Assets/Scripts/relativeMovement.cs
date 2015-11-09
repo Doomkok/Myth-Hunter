@@ -15,10 +15,12 @@ public class relativeMovement : MonoBehaviour {
 	public float minFall = -1.5f; 
 	private float _vertSpeed;
 	private ControllerColliderHit _contact;
+	private Animator anim;
 
 	void Start () {
 		_charController = GetComponent<CharacterController> ();
 		_vertSpeed = minFall;
+		anim = GetComponentInChildren<Animator> ();
 	}
 
 	// Update is called once per frame
@@ -32,32 +34,38 @@ public class relativeMovement : MonoBehaviour {
 		if (horInput != 0 || vertInput != 0) {
 			movement.x = horInput * moveSpeed;
 			movement.z = vertInput * moveSpeed;
-			movement = Vector3.ClampMagnitude(movement, moveSpeed);
+			movement = Vector3.ClampMagnitude (movement, moveSpeed);
 
 
 			Quaternion tmp = target.rotation;
-			target.eulerAngles = new Vector3 (0, target.eulerAngles.y,0);
-			movement = target.TransformDirection(movement);
+			target.eulerAngles = new Vector3 (0, target.eulerAngles.y, 0);
+			movement = target.TransformDirection (movement);
 			target.rotation = tmp;
 
-			Quaternion direction = Quaternion.LookRotation(movement);
-			transform.rotation = Quaternion.Lerp(transform.rotation, direction, rotSpeed * Time.deltaTime);
+			Quaternion direction = Quaternion.LookRotation (movement);
+			transform.rotation = Quaternion.Lerp (transform.rotation, direction, rotSpeed * Time.deltaTime);
+			anim.SetFloat ("Speed", 6);
+		} else {
+			anim.SetFloat ("Speed", 0);
 		}
 
 
 
 		bool hitGround = false;
 		RaycastHit hit;
-		if (_vertSpeed < 0 && Physics.Raycast(transform.position, Vector3.down, out hit)) {
+		if (_vertSpeed < 0 && Physics.Raycast (transform.position, Vector3.down, out hit)) {
 			float check = (_charController.height + _charController.radius) / 1.9f;
 			hitGround = hit.distance <= check;
-		}
+		} 
 
 		if (hitGround) {
 			if(Input.GetButtonDown("Jump")) {
+				anim.SetBool("isJumping", true);
 				_vertSpeed = jumpSpeed;
+
 			} else {
 				_vertSpeed = minFall;
+				anim.SetBool("isJumping", false);
 			} 
 		}	else {
 			_vertSpeed += gravity * 5 *Time.deltaTime;

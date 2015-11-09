@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: fb8b7da2eb1b523448db4d1545f7d2b7
+timeCreated: 1447074243
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: blunderbluss
+    100002: //RootNode
+    100004: halbue
+    100006: hfingre
+    100008: hfod
+    100010: hfod_Goal
+    100012: "hh\xE5nd"
+    100014: "hkn\xE6"
+    100016: "hl\xE5r"
+    100018: hovede
+    100020: hskulder
+    100022: htommel
+    100024: Joint_5
+    100026: Joint_5_2
+    100028: Joint_5_3
+    100030: Joint_8
+    100032: Joint_8_2
+    100034: Joint_8_3
+    100036: Joint_8_4
+    100038: mave
+    100040: ryg
+    100042: spin
+    100044: valbue
+    100046: vfingre
+    100048: vfod
+    100050: vfod_Goal
+    100052: "vh\xE5nd"
+    100054: "vkn\xE6"
+    100056: "vl\xE5r"
+    100058: vskulder
+    100060: vtommel
+    400000: blunderbluss
+    400002: //RootNode
+    400004: halbue
+    400006: hfingre
+    400008: hfod
+    400010: hfod_Goal
+    400012: "hh\xE5nd"
+    400014: "hkn\xE6"
+    400016: "hl\xE5r"
+    400018: hovede
+    400020: hskulder
+    400022: htommel
+    400024: Joint_5
+    400026: Joint_5_2
+    400028: Joint_5_3
+    400030: Joint_8
+    400032: Joint_8_2
+    400034: Joint_8_3
+    400036: Joint_8_4
+    400038: mave
+    400040: ryg
+    400042: spin
+    400044: valbue
+    400046: vfingre
+    400048: vfod
+    400050: vfod_Goal
+    400052: "vh\xE5nd"
+    400054: "vkn\xE6"
+    400056: "vl\xE5r"
+    400058: vskulder
+    400060: vtommel
+    2300000: blunderbluss
+    3300000: blunderbluss
+    4300000: "DV\xC6RG"
+    4300002: blunderbluss
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

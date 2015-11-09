@@ -10,6 +10,8 @@ public class shootScript : MonoBehaviour {
 	public float fireRate = 2f;
 	public int damage = 25;
 	float cooldown = 0;
+	public Transform gunFXPoint;
+	public GameObject gunFX;
 	
 	// Use this for initialization
 	void Start () {
@@ -33,6 +35,7 @@ public class shootScript : MonoBehaviour {
 			if (Input.GetButton ("Fire1")) {
 				if (cooldown < 0) {
 					cooldown = fireRate;
+					Instantiate(gunFX, gunFXPoint.position, gunFXPoint.rotation);
 					Vector3 point = new Vector3 (_RayCastcamera.pixelWidth/2, _RayCastcamera.pixelHeight/2,0);
 					Ray ray = _RayCastcamera.ScreenPointToRay(point);
 					RaycastHit hit;
