@@ -93,7 +93,95 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hfod_Goal
+        weight: 1
+      - path: spin
+        weight: 1
+      - path: "spin/hl\xE5r"
+        weight: 1
+      - path: "spin/hl\xE5r/hkn\xE6"
+        weight: 1
+      - path: "spin/hl\xE5r/hkn\xE6/hfod"
+        weight: 1
+      - path: "spin/hl\xE5r/hkn\xE6/hfod/Joint_5_2"
+        weight: 1
+      - path: spin/mave
+        weight: 1
+      - path: spin/mave/ryg
+        weight: 1
+      - path: spin/mave/ryg/hovede
+        weight: 1
+      - path: spin/mave/ryg/hovede/Joint_5_3
+        weight: 1
+      - path: spin/mave/ryg/hskulder
+        weight: 1
+      - path: spin/mave/ryg/hskulder/halbue
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/blunderbluss"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/hfingre"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/hfingre/Joint_8_4"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/htommel"
+        weight: 1
+      - path: "spin/mave/ryg/hskulder/halbue/hh\xE5nd/htommel/Joint_8_3"
+        weight: 1
+      - path: spin/mave/ryg/vskulder
+        weight: 1
+      - path: spin/mave/ryg/vskulder/valbue
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd"
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd/vfingre"
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd/vfingre/Joint_8_2"
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd/vtommel"
+        weight: 1
+      - path: "spin/mave/ryg/vskulder/valbue/vh\xE5nd/vtommel/Joint_8"
+        weight: 1
+      - path: "spin/vl\xE5r"
+        weight: 1
+      - path: "spin/vl\xE5r/vkn\xE6"
+        weight: 1
+      - path: "spin/vl\xE5r/vkn\xE6/vfod"
+        weight: 1
+      - path: "spin/vl\xE5r/vkn\xE6/vfod/Joint_5"
+        weight: 1
+      - path: vfod_Goal
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

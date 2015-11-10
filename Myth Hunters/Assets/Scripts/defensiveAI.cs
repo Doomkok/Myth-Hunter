@@ -10,13 +10,13 @@ public class defensiveAI : MonoBehaviour {
 	public float obstacleRange = 0.5f;
 	private float attackCooldown = 1.5f;
 	public float currentAttackCooldown = 1.5f;
-	public Transform playerTransform;
+	private Transform playerTransform;
 	private GameObject playerCol;
 	private reactiveTarget rT;
 	
 	// Use this for initialization
 	void Start () {
-		
+		playerTransform = GameObject.FindGameObjectWithTag ("Player").gameObject.transform;
 	}
 	
 	// Update is called once per frame
